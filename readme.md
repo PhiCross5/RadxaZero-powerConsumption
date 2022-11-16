@@ -3,6 +3,11 @@ Power consumption measurements for the [Radxa zero SBC](https://wiki.radxa.com/Z
 
 ## Power consumption figures from tests
 
+### TLDR (Too Long, Didn't Read) plus some key facts
+- **Idle consumption is 100mA**, regardless of clock speed.
+- **Maximum power consumption is 550mA**.
+- - Sleep mode might make idle power lower, but my particular configuration didn't support that.
+- Wifi consistently takes a minimum of 40mA just listening for incoming traffic, 
 ### Current @5V, for many use cases
 situation | current (min - max)
 --------- | -------
