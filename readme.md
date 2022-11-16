@@ -1,5 +1,5 @@
 # Radxa zero power consumption figures
-Power consumption measurements for the (Radxa zero SBC)[https://wiki.radxa.com/Zero], plus whatever other info on it that people might desire but is not available on the wiki yet.
+Power consumption measurements for the [Radxa zero SBC](https://wiki.radxa.com/Zero), plus whatever other info on it that people might desire but is not available on the wiki yet.
 
 ## Power consumption figures from tests
 
@@ -18,4 +18,4 @@ wifi download @ 400KB/s | 120mA - 220mA
 1080p 60fps video on `mpv`, wifi off | 310mA - 350mA
 
 ### Current vs clock speed running 1080p video offline
-(TBD)
+![radxa current draw from 5V supply vs locked clock-speed](https://github.com/PhiCross5/RadxaZero-powerConsumption/raw/main/radxa-consumption-graph.png)
