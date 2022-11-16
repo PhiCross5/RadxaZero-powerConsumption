@@ -29,4 +29,5 @@ wifi download @ 400KB/s | 120mA - 220mA
 1080p 60fps video on `mpv`, wifi off | 310mA - 350mA
 
 ### Current vs clock speed running 1080p video offline
+The 4 x Cortex A53 @ 1.8GHz on the S905Y2 cannot decode 1080p60 video at full-speed (And it shouldn't have to, there's a specialized "Video Processing Unit" for that), thus doing such operation at different clock speeds can serve as an estimate of maximum power consumption of the CPU, not accounting for Wireless activity.
 ![radxa current draw from 5V supply vs locked clock-speed](https://github.com/PhiCross5/RadxaZero-powerConsumption/raw/main/radxa-consumption-graph.png)
