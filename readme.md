@@ -4,3 +4,9 @@ Power consumption measurements for the (Radxa zero SBC)[https://wiki.radxa.com/Z
 ## Power consumption figures from tests
 
 ### Current @5V, for many use cases
+situation | current (min - max)
+--------- | -------
+(**BASELINE**) idle, wifi off | 110mA - 120mA
+idle, wifi on | 100mA - 160mA
+youtube video, 720p, browser | 190mA - 270mA
+
