@@ -12,6 +12,7 @@ With 5V power supply:
 - **Fully loaded Wifi consumes 180mA**
 - Hardware acceleration of video encoding/decoding is not supported yet, so the power consumption in that use case might become dramatically lower in the future.
 - **A 5000mAh powerbank will power it for at least 5.5h, at most 36h**. You could build a smartphone or tablet with it, if you don't mind needing a slightly bigger battery.
+- Lastly, for the inspector types, i'll have you know i was running the latest Manjaro ARM, Plasma variant, with display output enabled. The 7-inch LCD i was using had maximum brightness but it was not running on the same power rail, so it doesn't affect the power consumption readings.
 
 ### Current @5V, for many use cases
 situation | current (min - max)
@@ -21,7 +22,7 @@ idle, wifi on | 100mA - 160mA
 youtube video, 720p, browser | 190mA - 270mA
 youtube video, 720p, browser, CPU speed locked @1.8GHz | 220mA - 370mA
 1080p h264 video from `yt-dlp` to `mpv` | 280mA - 400mA
-(**SIMULATED MAXIMUM**) wifi saturated with `iperf3` and CPU full-load stress test |  550mA
+(**SIMULATED MAXIMUM**, tested by *Rauxon* at Radxa discord) wifi saturated with `iperf3` and CPU full-load stress test |  550mA
 720p h264 video from `yt-dlp` to `mpv` | 220mA - 240mA
 720p h264 video playback on `mpv`, wifi off | 160mA to 250mA
 wifi download @ 400KB/s | 120mA - 220mA
