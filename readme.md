@@ -4,10 +4,15 @@ Power consumption measurements for the [Radxa zero SBC](https://wiki.radxa.com/Z
 ## Power consumption figures from tests
 
 ### TLDR (Too Long, Didn't Read) plus some key facts
+With 5V power supply:
 - **Idle consumption is 100mA**, regardless of clock speed.
 - **Maximum power consumption is 550mA**.
-- - Sleep mode might make idle power lower, but my particular configuration didn't support that.
-- Wifi consistently takes a minimum of 40mA just listening for incoming traffic, 
+- Sleep mode might make idle power lower, but my particular configuration didn't support that.
+- **Connected but idle Wifi consumes 40mA**. This is for just the WiFi module.
+- **Fully loaded Wifi consumes 180mA**
+- Hardware acceleration of video encoding/decoding is not supported yet, so the power consumption in that use case might become dramatically lower in the future.
+- **A 5000mAh powerbank will power it for at least 5.5h, at most 36h**. You could build a smartphone or tablet with it, if you don't mind needing a slightly bigger battery.
+
 ### Current @5V, for many use cases
 situation | current (min - max)
 --------- | -------
